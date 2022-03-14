@@ -12,7 +12,7 @@ namespace Gary_sWholesaleGarage
         {
             // method definition omitted
          CurrentChargePercentage=100;
-            Console.WriteLine($" Your Tesla now charged to {this.CurrentChargePercentage} khm");
+            
             
             
         }

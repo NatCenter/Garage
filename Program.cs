@@ -15,6 +15,12 @@ namespace Gary_sWholesaleGarage
                 fx, fxs, modelS
             };
 
+            modelS.Name="Model S";
+            modelS.CurrentChargePercentage=37;
+        fxs.CurrentChargePercentage=20;
+
+        fx.CurrentChargePercentage=45;
+
             Console.WriteLine("Electric Vehicles");
             foreach(IElectricVehicles ev in electricVehicles)
             {
@@ -36,6 +42,8 @@ namespace Gary_sWholesaleGarage
 
             Ram ram = new Ram ();
             Cessna cessna150 = new Cessna ();
+            ram.CurrentTankPercentage=50;
+            cessna150.CurrentTankPercentage=90;
 
             List<IGasVehicles> gasVehicles = new List<IGasVehicles>() {
                 ram, cessna150

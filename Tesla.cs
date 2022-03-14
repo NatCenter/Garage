@@ -5,6 +5,7 @@ namespace Gary_sWholesaleGarage
     {   
        public  double  BatteryKWh{get;set;}
        public double CurrentChargePercentage{get;set;}
+       public string Name{get;set;}
        
         public void ChargeBattery()
         {
